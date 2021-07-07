@@ -6,6 +6,5 @@
   
 # 就業termの技術  
   ・ Vue.js  
-  ・ 
-  
+  ・ Ajax  
 
