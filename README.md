@@ -7,4 +7,10 @@
 # 就業termの技術  
   ・ Vue.js  
   ・ Ajax  
-
+ 
+# カリキュラム外の技術  
+  ・ Google Map API  
+  ・ OpenWeatherMap  
+  
+# 実行手順  
+ <code>
