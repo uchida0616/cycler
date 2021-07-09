@@ -13,4 +13,17 @@
   ・ OpenWeatherMap  
   
 # 実行手順  
- <code>
+<code>$ git clone git@github.com:uchida0616/cycler.git</code>  
+<code>$ cd cycler</code>  
+<code>$ bundle install</code>  
+<code>$ rails db:create && rails db:migrate</code>  
+<code>$ rails s</code>  
+
+# カタログ設計  
+https://docs.google.com/spreadsheets/d/1Z1jFsvgloGeIXR_YyskFdc2Z-MyY20I6CPAXuvjzZjU/edit?usp=sharing  
+
+# テーブル定義  
+https://docs.google.com/spreadsheets/d/1Z1jFsvgloGeIXR_YyskFdc2Z-MyY20I6CPAXuvjzZjU/edit?usp=sharing  
+
+# ワイヤーフレーム  
+https://cacoo.com/diagrams/3uYU046ycq4NKCuK/30EE7
