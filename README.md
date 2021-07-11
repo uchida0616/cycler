@@ -29,7 +29,7 @@ https://docs.google.com/spreadsheets/d/1Z1jFsvgloGeIXR_YyskFdc2Z-MyY20I6CPAXuvjz
 https://cacoo.com/diagrams/3uYU046ycq4NKCuK/30EE7  
 
 # ER図  
-<img width="837" alt="スクリーンショット 2021-07-09 9 51 26" src="https://user-images.githubusercontent.com/73732720/125007484-3f362d80-e09b-11eb-9ddd-11a8ae524d94.png">
+<img width="1028" alt="スクリーンショット 2021-07-11 13 00 36" src="https://user-images.githubusercontent.com/73732720/125182313-fec7e280-e247-11eb-8c27-08ac48c28969.png">
 
 # 画面遷移図  
 <img width="1313" alt="スクリーンショット 2021-07-09 14 34 48" src="https://user-images.githubusercontent.com/73732720/125028351-d4005180-e0c2-11eb-9ffb-f8069bcb8f77.png">
