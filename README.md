@@ -32,7 +32,8 @@ https://cacoo.com/diagrams/3uYU046ycq4NKCuK/30EE7
 <img width="1028" alt="スクリーンショット 2021-07-11 13 00 36" src="https://user-images.githubusercontent.com/73732720/125182313-fec7e280-e247-11eb-8c27-08ac48c28969.png">
 
 # 画面遷移図  
-<img width="1313" alt="スクリーンショット 2021-07-09 14 34 48" src="https://user-images.githubusercontent.com/73732720/125028351-d4005180-e0c2-11eb-9ffb-f8069bcb8f77.png">
+<img width="1383" alt="スクリーンショット 2021-07-11 13 04 45" src="https://user-images.githubusercontent.com/73732720/125182381-93cadb80-e248-11eb-97f2-43ae9ef5a7da.png">
+
 
 <<<<<<< HEAD
 Things you may want to cover:
