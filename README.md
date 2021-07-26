@@ -29,7 +29,8 @@ https://docs.google.com/spreadsheets/d/1Z1jFsvgloGeIXR_YyskFdc2Z-MyY20I6CPAXuvjz
 https://cacoo.com/diagrams/3uYU046ycq4NKCuK/30EE7  
 
 # ER図  
-<img width="1586" alt="スクリーンショット 2021-07-26 14 06 15" src="https://user-images.githubusercontent.com/73732720/126935934-3776e3db-4b64-4190-9947-c75b723aa7b7.png">
+<img width="1375" alt="スクリーンショット 2021-07-26 14 08 14" src="https://user-images.githubusercontent.com/73732720/126936066-30005ff3-6476-4376-b1f8-77de6e17365d.png">
+
 
 
 
