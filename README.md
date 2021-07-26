@@ -35,5 +35,6 @@ https://cacoo.com/diagrams/3uYU046ycq4NKCuK/30EE7
 
 
 # 画面遷移図  
-<img width="1268" alt="スクリーンショット 2021-07-26 16 42 19" src="https://user-images.githubusercontent.com/73732720/126951571-35b7c981-750b-4919-a932-b90b4326d2f3.png">
+<img width="1301" alt="スクリーンショット 2021-07-26 18 31 34" src="https://user-images.githubusercontent.com/73732720/126967221-8eeec246-4342-4f1d-9fa9-2100e6494c4b.png">
+
 
