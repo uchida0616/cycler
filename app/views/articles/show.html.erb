@@ -1,0 +1,6 @@
+<h1>投稿詳細画面</h1>
+<p>内容: <%= @article.description %></p>
+<p>
+  <%= image_tag(@article.picture.url) if @article.picture && @article.picture.url %>
+</p>
+<%= link_to "投稿一覧画面に戻る", articles_path %>

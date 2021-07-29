@@ -1,4 +1,5 @@
 class ArticlesController < ApplicationController
+  before_action :set_blog, only: [:show, :edit, :update, :destroy]
   def index
     @articles = Article.all.where.not(picture: nil)
   end
@@ -36,7 +37,7 @@ class ArticlesController < ApplicationController
 
   def destroy
     @article.destroy
-    redirect_to posts_path, notice:"投稿を削除しました！"
+    redirect_to articles_path, notice:"投稿を削除しました！"
   end
 
   def confirm
@@ -46,5 +47,9 @@ class ArticlesController < ApplicationController
 
   def article_params
     params.require(:article).permit(:description, :picture, :image_cache)
+  end
+
+  def set_blog
+    @article = Article.find(params[:id])
   end
 end
