@@ -29,32 +29,11 @@ https://docs.google.com/spreadsheets/d/1Z1jFsvgloGeIXR_YyskFdc2Z-MyY20I6CPAXuvjz
 https://cacoo.com/diagrams/3uYU046ycq4NKCuK/30EE7  
 
 # ER図  
-<img width="1310" alt="スクリーンショット 2021-07-11 13 21 10" src="https://user-images.githubusercontent.com/73732720/125182670-f1602780-e24a-11eb-89f9-405933fc751f.png">
+<img width="929" alt="スクリーンショット 2021-07-26 18 32 31" src="https://user-images.githubusercontent.com/73732720/126967357-5d56613f-d982-47cf-9a9a-5a9fb1e2899c.png">
+
 
 
 # 画面遷移図  
-<img width="1383" alt="スクリーンショット 2021-07-11 13 04 45" src="https://user-images.githubusercontent.com/73732720/125182381-93cadb80-e248-11eb-97f2-43ae9ef5a7da.png">
+<img width="1301" alt="スクリーンショット 2021-07-26 18 31 34" src="https://user-images.githubusercontent.com/73732720/126967221-8eeec246-4342-4f1d-9fa9-2100e6494c4b.png">
 
 
-<<<<<<< HEAD
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-=======
->>>>>>> b70f3fc46b06d0cfbfb312effe457bd5009aa78b
