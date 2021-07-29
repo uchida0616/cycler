@@ -45,8 +45,9 @@ class ArticlesController < ApplicationController
     render :new if @article.invalid?
   end
 
+  private
   def article_params
-    params.require(:article).permit(:description, :picture, :image_cache)
+    params.require(:article).permit(:description, :picture, :picture_cache)
   end
 
   def set_blog

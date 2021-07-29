@@ -1,11 +1,1 @@
-<%= form_with(model: Article.new, local: true) do |form| %>
-  <div class="article_title">
-    <%= form.label :description %>
-    <%= form.text_field :description %>
-  </div>
-  <div class="field">
-    <%= form.label :picture %>
-    <%= form.file_field :picture %>
-  </div>
-  <%= form.submit %>
-<% end %>
+<%= render 'form' %>
