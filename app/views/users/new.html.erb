@@ -1,0 +1,38 @@
+<% if @user.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@user.errors.count, "error") %> prohibited this <%= @user.name %>from
+being saved:</h2>
+    <ul>
+    <% @user.errors.full_messages.each do |message| %>
+      <li><%= message %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>
+<div class="signup_box">
+  <h1 class="signup_header">Cycler</h1>
+  <br></br>
+  <%= form_with(model: @user, local: true) do |f| %>
+    <div>
+      <%= f.text_field :name, placeholder: "フルネーム", class: "text_field" %>
+    </div>
+    <div>
+      <%= f.email_field :email, placeholder: "メールアドレス", class: "email_field" %>
+    </div>
+    <div>
+      <%= f.password_field :password, placeholder: "パスワード", class: "password_field" %>
+    </div>
+    <div>
+      <%= f.password_field :password_confirmation, placeholder: "確認パスワード", class: "confirm_password_field" %>
+    </div>
+    <div class="field">
+      <%= image_tag(@user.icon.url) if @user.icon && @user.icon.url %>
+      <%= form.file_field :icon %>
+      <%= form.hidden_field :icon_cache %>
+    </div>
+    <br>
+    <div>
+      <%= f.submit "新規登録", class: "signup_btn" %>
+    </div>
+  <% end %>
+</div>

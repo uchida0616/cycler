@@ -18,7 +18,7 @@
         <div align="center">
           <%= image_tag(@article.picture.url) if @article.picture && @article.picture.url %>
           <%= form.file_field :picture %>
-          <%= form.hidden_field :image_cache %>
+          <%= form.hidden_field :picture_cache %>
         </div>
         <div class="sumbit_btn">
           <%= form.submit "投稿する" %>
