@@ -42,6 +42,7 @@ class ArticlesController < ApplicationController
 
   def confirm
     @article = Article.new(article_params)
+    @blog.user_id = current_user.id
     render :new if @article.invalid?
   end
 

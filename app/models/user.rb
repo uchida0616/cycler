@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   mount_uploader :icon, IconUploader
+  has_many :articles, dependent: :destroy
   validates :name, presence: true
   validates :email, presence: true,
                     format: { with: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i }
