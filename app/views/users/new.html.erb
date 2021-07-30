@@ -27,8 +27,8 @@ being saved:</h2>
     </div>
     <div class="field">
       <%= image_tag(@user.icon.url) if @user.icon && @user.icon.url %>
-      <%= form.file_field :icon %>
-      <%= form.hidden_field :icon_cache %>
+      <%= f.file_field :icon %>
+      <%= f.hidden_field :icon_cache %>
     </div>
     <br>
     <div>
