@@ -1,7 +1,4 @@
 Rails.application.routes.draw do
-  get 'comments/create'
-  get 'relationships/create'
-  get 'relationships/destroy'
   root to: 'users#new'
   resources :favorites, only: [:create, :destroy]
   resources :sessions, only: [:new, :create, :destroy]

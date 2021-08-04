@@ -3,4 +3,14 @@
 <p>
   <%= image_tag(@article.picture.url) if @article.picture && @article.picture.url %>
 </p>
+<p>コメント一覧</p>
+  <!-- このcomments_areaというHTMLのidを取得して、そのdivの部分だけを更新する -->
+  <div id="comments_area">
+    <!-- 投稿されたコメント一覧をブログの詳細ページに表示するためのrender -->
+    <%= render partial: 'comments/index', locals: { comments: @comments, article: @article } %>
+  </div>
+  <!-- コメント入力欄をブログの詳細ページに表示するためのrender -->
+  <%= render partial: 'comments/form', locals: { comment: @comment, article: @article } %>
+  <%= link_to '編集', edit_article_path(@article) %> |
+  <%= link_to '戻る', articles_path %>
 <%= link_to "投稿一覧画面に戻る", articles_path %>
