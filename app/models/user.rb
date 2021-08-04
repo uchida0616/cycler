@@ -14,4 +14,17 @@ class User < ApplicationRecord
   before_validation { email.downcase! }
   has_secure_password
   validates :password, presence: true, length: { minimum: 6 }
+
+    #指定のユーザをフォローする
+  def follow!(other_user)
+    active_relationships.create!(followed_id: other_user.id)
+  end
+  #フォローしているかどうかを確認する
+  def following?(other_user)
+    active_relationships.find_by(followed_id: other_user.id)
+  end
+  #指定のユーザのフォローを解除する
+  def unfollow!(other_user)
+    active_relationships.find_by(followed_id: other_user.id).destroy
+  end
 end

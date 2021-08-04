@@ -11,6 +11,7 @@ Rails.application.routes.draw do
     end
   end
   resources :articles do
+    resources :comments
      collection do
        post :confirm
     end
