@@ -3,9 +3,11 @@ Rails.application.routes.draw do
   resources :favorites, only: [:create, :destroy]
   resources :sessions, only: [:new, :create, :destroy]
   resources :relationships, only: [:create, :destroy]
-  resources :users do
-    member do
-      get :favorite_article
+  namespace :admin do
+    resources :users do
+      member do
+        get :favorite_article
+      end
     end
   end
   resources :articles do
