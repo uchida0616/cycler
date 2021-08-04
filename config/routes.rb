@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'comments/create'
   get 'relationships/create'
   get 'relationships/destroy'
   root to: 'users#new'
