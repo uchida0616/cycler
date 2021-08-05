@@ -1,0 +1,16 @@
+<h1><%= @user.name %>のページ</h1>
+<p>メールアドレス: <%= @user.email %></p>
+
+<table class="table table-striped">
+  <tbody>
+    <% @user.articles.each do |article| %>
+      <p>内容: <%= article.description %></p>
+      <p>
+        <%= image_tag(article.picture.url) if article.picture && article.picture.url %>
+      </p>
+        <td><%= link_to 'Edit', edit_article_path(task) %></td>
+        <td><%= link_to 'Deliete', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

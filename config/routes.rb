@@ -4,10 +4,12 @@ Rails.application.routes.draw do
   resources :sessions, only: [:new, :create, :destroy]
   resources :relationships, only: [:create, :destroy]
   namespace :admin do
-    resources :users do
-      member do
-        get :favorite_article
-      end
+    resources :users, only: [:index, :show, :new, :create, :destroy, :edit, :update] do
+    end
+  end
+  resources :users do
+    member do
+      get :favorite_article
     end
   end
   resources :articles do

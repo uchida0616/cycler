@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  before_destroy :admin_user_destroy_action
+  before_update :admin_user_update_action
   mount_uploader :icon, IconUploader
   has_many :articles, dependent: :destroy
   has_many :favorites, dependent: :destroy
@@ -27,4 +29,20 @@ class User < ApplicationRecord
   def unfollow!(other_user)
     active_relationships.find_by(followed_id: other_user.id).destroy
   end
+
+  private
+
+    def admin_user_destroy_action
+      if User.where(admin: true).count == 1 && self.admin
+        throw(:abort)
+      end
+    end
+
+    def admin_user_update_action
+      @admin_user = User.where(admin: true)
+      if (@admin_user.count == 1 && @admin_user.first == self) && !(self.admin)
+        throw :abort
+
+      end
+    end
 end
